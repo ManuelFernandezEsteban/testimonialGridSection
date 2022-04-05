@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;500;600&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow Semi Condensed";
+  font-size: 0.9rem;
+}
+
+.violet {
+  background-color: #7541c8;
+}
+
+.wrapper {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #ecf2f8;
+  align-items: center;
+  justify-content: space-around;
+}
+.wrapper section {
+  width: 90%;
+}
+.wrapper .card {
+  border-radius: 8px;
+  color: white;
+}
+.wrapper .wrapper-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px;
+}
+.wrapper .wrapper-card .header-card {
+  display: flex;
+  align-items: center;
+}
+.wrapper .wrapper-card .header-card .wrapper-card-header-img {
+  border: 1px solid #ecf2f8;
+  border-radius: 25px;
+  width: 30px;
+  height: 30px;
+}
+.wrapper .wrapper-card .header-card .wrapper-card-header-img img {
+  width: 30px;
+  object-fit: contain;
+  border-radius: 30px;
+  width: 30px;
+  height: 30px;
+}
+.wrapper .wrapper-card .header-card .wrapper-title {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.wrapper .wrapper-card .header-card .wrapper-title span {
+  font-size: 0.78rem;
+}
+.wrapper .wrapper-card .header-card .wrapper-title .sub-title {
+  opacity: 50%;
+  font-size: 0.78rem;
+}
+.wrapper .wrapper-card .title p {
+  font-weight: 600;
+  font-size: 1.325rem;
+  line-height: 1.6rem;
+}
+.wrapper .wrapper-card .description p {
+  opacity: 70%;
+  font-size: 0.855rem;
+  font-weight: 100;
+  line-height: 1.2rem;
+}
+
+/*# sourceMappingURL=style.css.map */
