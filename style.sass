@@ -12,27 +12,45 @@ $fontsize:0.9rem
 
 body
     margin: 0
-    padding: 0
+    padding: 0    
     box-sizing: border-box
     font-family: $fontfamily
-    font-size: $fontsize
+    font-size: $fontsize    
 .violet
     background-color: $moderate-violet
+.dark-grayish-blue
+    background-color: $very-dark-grayish-blue
+.white
+    background-color: $white
+.dark-blackish-blue
+    background-color: $very-dark-blackish-blue
 
-.wrapper
-    width: 100vw
-    min-height: 100vh
+.text-white
+    color: $white
+.text-dark
+    color: $very-dark-blackish-blue
+
+.wrapper    
     display: flex
     flex-direction: column
+    height: auto
     background-color: $light-grayish-blue
     align-items: center
-    justify-content: space-around
+    justify-content: center
+    align-self: center
     section
         width: 90%
+        display: grid
+        grid-template-columns: repeat(1,1fr)
+        grid-row-gap: 30px
 
     .card 
         border-radius: 8px
-        color: $white
+        &:first-of-type            
+            margin-top: 100px
+        &:last-of-type
+            margin-bottom: 100px
+        
     .wrapper-card
         display: flex
         flex-direction: column

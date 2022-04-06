@@ -11,21 +11,49 @@ body {
   background-color: #7541c8;
 }
 
+.dark-grayish-blue {
+  background-color: #48556a;
+}
+
+.white {
+  background-color: white;
+}
+
+.dark-blackish-blue {
+  background-color: #19212e;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-dark {
+  color: #19212e;
+}
+
 .wrapper {
-  width: 100vw;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  height: auto;
   background-color: #ecf2f8;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  align-self: center;
 }
 .wrapper section {
   width: 90%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-row-gap: 30px;
 }
 .wrapper .card {
   border-radius: 8px;
-  color: white;
+}
+.wrapper .card:first-of-type {
+  margin-top: 100px;
+}
+.wrapper .card:last-of-type {
+  margin-bottom: 100px;
 }
 .wrapper .wrapper-card {
   display: flex;
