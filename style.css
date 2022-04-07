@@ -10,17 +10,43 @@ body {
 .violet {
   background-color: #7541c8;
 }
+@media screen and (min-width: 800px) {
+  .violet {
+    grid-area: violeta;
+  }
+}
 
 .dark-grayish-blue {
   background-color: #48556a;
+}
+@media screen and (min-width: 800px) {
+  .dark-grayish-blue {
+    grid-area: gris;
+  }
 }
 
 .white {
   background-color: white;
 }
+@media screen and (min-width: 800px) {
+  .white {
+    grid-area: white;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .white2 {
+    grid-area: white2;
+  }
+}
 
 .dark-blackish-blue {
   background-color: #19212e;
+}
+@media screen and (min-width: 800px) {
+  .dark-blackish-blue {
+    grid-area: grisOscuro;
+  }
 }
 
 .text-white {
@@ -40,11 +66,27 @@ body {
   justify-content: center;
   align-self: center;
 }
+@media screen and (min-width: 800px) {
+  .wrapper {
+    min-height: 100vh;
+  }
+}
 .wrapper section {
   width: 90%;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-row-gap: 30px;
+}
+@media screen and (min-width: 800px) {
+  .wrapper section {
+    width: 80%;
+    height: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 30px;
+    grid-template-areas: "violeta violeta gris white" "white2 grisOscuro grisOscuro white";
+    padding: 100px;
+  }
 }
 .wrapper .card {
   border-radius: 8px;
@@ -52,8 +94,18 @@ body {
 .wrapper .card:first-of-type {
   margin-top: 100px;
 }
+@media screen and (min-width: 800px) {
+  .wrapper .card:first-of-type {
+    margin-top: 0px;
+  }
+}
 .wrapper .card:last-of-type {
   margin-bottom: 100px;
+}
+@media screen and (min-width: 800px) {
+  .wrapper .card:last-of-type {
+    margin-bottom: 0px;
+  }
 }
 .wrapper .wrapper-card {
   display: flex;
