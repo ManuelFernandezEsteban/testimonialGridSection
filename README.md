@@ -26,7 +26,7 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop](./screenshots/screenshotDesktopFrontendMentorChallengeTestimonialGrid.png)
-![Mobile](./screenshots/screenshotDesktopFrontendMentorChallengeTestimonialGrid.png)
+![Mobile](./screenshots/screenshotMobileFrontendMentorChallengeTestimonialGrid.png)
 
 
 ### Links
