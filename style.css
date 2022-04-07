@@ -9,10 +9,14 @@ body {
 
 .violet {
   background-color: #7541c8;
+  background-image: url("./images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position-x: 95%;
 }
 @media screen and (min-width: 800px) {
   .violet {
     grid-area: violeta;
+    background-position-x: 75%;
   }
 }
 
